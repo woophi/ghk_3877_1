@@ -51,7 +51,7 @@ export const App = () => {
                 <CDNIcon color="#C5C5C7" name="glyph_chevron-down_m" />
               </div>
               <Collapse expanded={diffOpen}>
-                <Typography.Text style={{ marginTop: '1rem' }} view="primary-medium" color="secondary">
+                <Typography.Text style={{ marginTop: '1rem', textAlign: 'left' }} view="primary-medium" color="secondary">
                   Брокерский счёт позволяет иметь более высокую доходность, но без гарантий. Инвесткопилка менее доходна, но
                   более безопасна.
                 </Typography.Text>
@@ -81,7 +81,7 @@ export const App = () => {
                 <CDNIcon color="#C5C5C7" name="glyph_chevron-down_m" />
               </div>
               <Collapse expanded={diffOpen2}>
-                <Typography.Text style={{ marginTop: '1rem' }} view="primary-medium" color="secondary">
+                <Typography.Text style={{ marginTop: '1rem', textAlign: 'left' }} view="primary-medium" color="secondary">
                   На брокерском счёте можно выбирать разные инструменты и менять стратегию. Возможности Инвесткопилки более
                   ограничены.
                 </Typography.Text>
